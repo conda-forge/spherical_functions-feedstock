@@ -27,6 +27,7 @@ requirements:
     - scipy
     - numba
     - quaternion
+    - spinsfast
 
 test:
   imports:
