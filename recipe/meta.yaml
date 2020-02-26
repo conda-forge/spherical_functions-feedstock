@@ -1,7 +1,7 @@
 {% set name = "spherical_functions" %}
 {% set pypiname = "spherical-functions" %}
-{% set version = "2020.2.21.10.36.37" %}
-{% set sha256 = "e3971c8d75e5fe02b02f86ac8091a3542b9d3256ed1e7ad8291a095b6038925b" %}
+{% set version = "2020.2.26.10.41.58" %}
+{% set sha256 = "591cf972873568c11ce7f34be0c95e4d7468d40f45fe8fa61a24dea466aebdaf" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: package_version={{ version }} python -m pip install --no-deps --ignore-installed .           # [not win]
+  script: package_version={{ version }} python -m pip install --no-deps --ignore-installed .  # [not win]
   script: set "package_version={{ version }}" && python -m pip install --no-deps --ignore-installed .  # [win]
 
 requirements:
@@ -38,7 +38,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Python/numba implementation of Wigner D Matrices, spin-weighted spherical harmonics, and associated functions'
+  summary: Python/numba implementation of Wigner D Matrices, spin-weighted spherical harmonics, and associated functions
   description: |
     Python/numba package for evaluating and transforming Wigner’s 𝔇 matrices, Wigner’s 3-j symbols,
     and spin-weighted (and scalar) spherical harmonics. These functions are evaluated directly in
