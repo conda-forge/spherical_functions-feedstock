@@ -5,7 +5,7 @@ Home: http://github.com/moble/spherical_functions
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Python/numba implementation of Wigner D Matrices, spin-weighted spherical harmonics, and associated functions
 
