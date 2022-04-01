@@ -1,7 +1,7 @@
 {% set name = "spherical_functions" %}
 {% set pypiname = "spherical-functions" %}
-{% set version = "2020.8.18.15.37.20" %}
-{% set sha256 = "775408f6b535151c99f4eb49c2d568298f4503b9c212bb574740b4178ca82043" %}
+{% set version = "2022.0.3" %}
+{% set sha256 = "24207defa80a6f0625095ce5c41f640152853f6ee33973afb4c61e05059adbdf" %}
 
 package:
   name: {{ name|lower }}
