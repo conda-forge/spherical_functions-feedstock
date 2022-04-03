@@ -1,7 +1,7 @@
 {% set name = "spherical_functions" %}
 {% set pypiname = "spherical-functions" %}
-{% set version = "2020.8.18.15.37.20" %}
-{% set sha256 = "775408f6b535151c99f4eb49c2d568298f4503b9c212bb574740b4178ca82043" %}
+{% set version = "2022.4.1" %}
+{% set sha256 = "0dda9641bac21c747c1e1419489b2d1a9eb7c7db3e46c3059b6a1f050478ab61" %}
 
 package:
   name: {{ name|lower }}
@@ -14,15 +14,15 @@ source:
 build:
   noarch: python
   number: 0
-  script: package_version={{ version }} python -m pip install --no-deps --ignore-installed .  # [not win]
-  script: set "package_version={{ version }}" && python -m pip install --no-deps --ignore-installed .  # [win]
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.8
     - pip
+    - poetry-core
   run:
-    - python >=3.6
+    - python >=3.8
     - numpy >=1.13
     - scipy
     - numba
