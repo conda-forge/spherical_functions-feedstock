@@ -1,11 +1,11 @@
-About spherical_functions
-=========================
+About spherical_functions-feedstock
+===================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/spherical_functions-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/moble/spherical_functions
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/spherical_functions-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python/numba implementation of Wigner D Matrices, spin-weighted spherical harmonics, and associated functions
 
