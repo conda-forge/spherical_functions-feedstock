@@ -1,19 +1,19 @@
 {% set name = "spherical_functions" %}
 {% set pypiname = "spherical-functions" %}
-{% set version = "2022.4.1" %}
-{% set sha256 = "0dda9641bac21c747c1e1419489b2d1a9eb7c7db3e46c3059b6a1f050478ab61" %}
+{% set version = "2022.4.2" %}
+{% set sha256 = "3e4a477f55002ffeb481d7a60df6be03fa4c52a95e650cdef0ecb0a027f43aff" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ pypiname[0] }}/{{ pypiname }}/{{ pypiname }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ pypiname[0] }}/{{ pypiname }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
