@@ -1,7 +1,7 @@
 {% set name = "spherical_functions" %}
 {% set pypiname = "spherical-functions" %}
-{% set version = "2022.4.5" %}
-{% set sha256 = "a46d86ad450d3b9c29de5dab65432663894b745b1496b8d1cbd24e9b5cabb520" %}
+{% set version = "2023.0.0" %}
+{% set sha256 = "6db7e5fac8289ec767ae75c780b7d193f6a8b88d74cf14a79d568bb8dda3f4bb" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
