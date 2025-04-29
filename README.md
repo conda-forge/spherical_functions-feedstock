@@ -35,7 +35,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-spherical_functions-green.svg)](https://anaconda.org/conda-forge/spherical_functions) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/spherical_functions.svg)](https://anaconda.org/conda-forge/spherical_functions) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/spherical_functions.svg)](https://anaconda.org/conda-forge/spherical_functions) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/spherical_functions.svg)](https://anaconda.org/conda-forge/spherical_functions) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-spherical__functions-green.svg)](https://anaconda.org/conda-forge/spherical_functions) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/spherical_functions.svg)](https://anaconda.org/conda-forge/spherical_functions) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/spherical_functions.svg)](https://anaconda.org/conda-forge/spherical_functions) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/spherical_functions.svg)](https://anaconda.org/conda-forge/spherical_functions) |
 
 Installing spherical_functions
 ==============================
