@@ -1,7 +1,7 @@
 {% set name = "spherical_functions" %}
 {% set pypiname = "spherical-functions" %}
-{% set version = "2023.0.0" %}
-{% set sha256 = "6db7e5fac8289ec767ae75c780b7d193f6a8b88d74cf14a79d568bb8dda3f4bb" %}
+{% set version = "2023.0.1" %}
+{% set sha256 = "0851110f927d20627e9b9792003fa589d5aa16a6f9dc0879b232e86171fc9cd8" %}
 {% set python_min = "3.10" %}
 
 # See https://conda-forge.org/docs/maintainer/knowledge_base/#noarch-python for the reason we
